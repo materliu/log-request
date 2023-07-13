@@ -145,5 +145,5 @@ RUN cd /usr/share/nginx/html \
 # run container as the www-data user
 USER www-data
 
-EXPOSE 8080
+EXPOSE 80
 ENTRYPOINT ["/start.sh"]
