@@ -30,12 +30,12 @@ as the homepage said:
 
 ### Want Run Directly
 ```bash
-docker run -it --rm -p 8080:80 ghcr.io/materliu/log-request:main
+docker run -it --rm -p 80:80 ghcr.io/materliu/log-request:main
 ```
 
 If you test in Apple Silicon
 ```bash
-docker run -it --rm -p 8080:80 --platform linux/x86_64 ghcr.io/materliu/log-request:main
+docker run -it --rm -p 80:80 --platform linux/x86_64 ghcr.io/materliu/log-request:main
 ```
 
 ## Log Request Sponsors
