@@ -28,6 +28,16 @@ as the homepage said:
 
 ![log-viewer](https://raw.githubusercontent.com/materliu/log-request/master/log-viewer.png)
 
+### Want Run Directly
+```bash
+docker run -it --rm -p 8080:80 ghcr.io/materliu/log-request:main
+```
+
+If you test in Apple Silicon
+```bash
+docker run -it --rm -p 8080:80 --platform linux/x86_64 ghcr.io/materliu/log-request:main
+```
+
 ## Log Request Sponsors
 
 We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
