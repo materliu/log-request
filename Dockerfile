@@ -134,7 +134,6 @@ RUN chown -R www-data:www-data /var/cache/nginx \
 
 ENV COMPOSER_ALLOW_SUPERUSER = 1
 RUN cd /usr/share/nginx/html \
-    && composer config -g repo.packagist composer https://mirrors.cloud.tencent.com/composer/ \
     && composer update --ignore-platform-reqs \
     && php artisan config:clear \
     && php artisan cache:clear \
