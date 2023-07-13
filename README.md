@@ -21,6 +21,9 @@ then visit: http://localhost
 as the homepage said:
 
 1. Just post to /api/log with data any format you like!
+
+![log-post](https://raw.githubusercontent.com/materliu/log-request/master/log-post.png)
+
 2. Then view your data by navigating to /log-viewer!
 
 ![log-viewer](https://raw.githubusercontent.com/materliu/log-request/master/log-viewer.png)
